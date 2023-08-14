@@ -1,0 +1,194 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: aliceblue;
+}
+
+
+.chatPage {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.header>div{
+  display: flex;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 20px;
+  transition: transform .2s;
+}
+
+.header>div:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+.chat-box {
+  width: 800px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.messages {
+  margin-bottom: 10px;
+}
+
+.message {
+  background-color: #f67474;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type='text'] {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 0px 2px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
+/* css  */
+.container{
+  display: flex;
+  justify-content: space-around;
+background-color: #b0d0f2;
+width: 60%;
+min-height: 60vh;
+border-radius: 10px;
+padding-top: 100px;
+}
+
+.leftContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+padding: 0px 20px;
+}
+.rightContainer{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+padding: 0px 20px;
+}
+
+.formContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+padding: 0px 20px;
+}
+
+.formContainer>input{
+  width: 250px;
+  padding: 10px 15px;
+  margin: 5px 0px;
+  font-size: 20px;
+}
+
+
+.loginBtn, .regBtn{
+background-color: #007bff;
+  color: white;
+  margin: 10px 0px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.loginBtn{
+  padding: 15px 122px;
+
+}
+.regBtn{
+padding: 15px 111px;
+}
+
+.formContainer>p{
+  display: flex;
+  font-size: 15px;
+  color: red;
+}
+
+
+
+/* home page */
+.homePage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoutBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #3791f0;
+  width: 200px;
+  height: 200px;
+  margin: 0px 10px;
+  color: white;
+  border-radius: 5px;
+  transition: transform .2s;
+}
+.logoutBtn:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.icon{
+  color: white;
+}
+
+
+
+
+/* upload file  */
+
+.uploadPage{
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
